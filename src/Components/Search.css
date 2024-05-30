@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.big{
+    margin-left: 30vw;
+}
+.card{
+    margin-top: 3vh;
+    width: 35vw;
+    height: 14vh;
+    border: 1px solid rgb(208, 215, 222);
+    border-radius: 6px;
+}
+.kont{
+    margin-left: 10vw;
+}
+.kont input{
+    margin-left: 1vw;
+}
+.cont{
+    display: block;
+    padding: 0vw 0vw 1vw 1vw;
+}
+
+.cont a{
+    text-decoration: none;
+}
+
+.cont a:hover{
+    text-decoration: underline;
+}
+
+.name{
+    color: rgb(9, 105, 218);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.about{
+    color: rgb(99, 108, 118);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+}
+
+.bott{
+    display: flex;
+}
+
+.lang{
+    margin: 12px 0 12px 0;
+    color: rgb(99, 108, 118);
+    font-size: 12px;
+}
+
+.star{
+    margin: 12px 0 12px 20px;
+    color: rgb(99, 108, 118);
+}
+.stars{
+    margin: 12px 0 12px 2px;
+    color: rgb(99, 108, 118);
+}
+/*=================Languages=====================*/
+.Javascript{
+    margin: 12px 5px 12px 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(241, 224, 90);
+}
+.Python{
+    margin: 12px 5px 12px 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:rgb(53, 114, 165);
+}
+.Html{
+    margin: 12px 5px 12px 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:rgb(227, 76, 38);
+}
+/*=================Languages=====================*/
+
+
+/*=================Responsive=====================*/
+@media (max-width: 1024px) {
+    .kont{
+        margin-left: 6vw;
+    }
+    .kont input{
+        margin-left: 3vw;
+    }
+    .card{
+        margin-left: -5vw;
+        width: 50vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .kont{
+        margin-left: 6vw;
+    }
+    .kont input{
+        margin-left: 3vw;
+    }
+    .card{
+        margin-left: -5vw;
+        width: 50vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 425px) {
+    .kont{
+        margin-left: -7vw;
+    }
+    .kont input{
+        margin-left: 3vw;
+    }
+    .card{
+        margin-left: -28vw;
+        width: 90vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .kont{
+        margin-left: -10vw;
+    }
+    .kont input{
+        margin-left: 3vw;
+    }
+    .card{
+        margin-left: -28vw;
+        width: 90vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .kont{
+        margin-left: -10vw;
+    }
+    .kont input{
+        margin-left: 3vw;
+    }
+    .card{
+        margin-left: -28vw;
+        width: 90vw;
+        height: 15vh;
+    }
+}
+/*=================Responsive=====================*/
